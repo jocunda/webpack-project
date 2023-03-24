@@ -1,3 +1,5 @@
+import "./styles/index.scss"
+
 const tomatoRecipe = {
     tomato: 5,
     water: 8,
