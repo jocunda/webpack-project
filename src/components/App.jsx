@@ -1,5 +1,6 @@
 import "../styles/index.scss"
 import Recipes from "./Recipes"
+import sushi from "../images/sushi.jpg"
 
 const App = () => {
     return <>
@@ -8,8 +9,10 @@ const App = () => {
             <section>
                 <h1>Hi, React</h1>
             </section>
+            <img src={sushi} alt="sushi" width="250" />
+            <Recipes />
         </main>
-        <Recipes />
+
     </>
 }
 
