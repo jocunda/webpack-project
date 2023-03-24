@@ -1,16 +1,7 @@
-import "./styles/index.scss"
+import * as ReactDOMClient from "react-dom/client"
+import App from "./components/App"
 
-const tomatoRecipe = {
-    tomato: 5,
-    water: 8,
-    salt: 2,
-}
+const container = document.getElementById('root');
+const root = ReactDOMClient.createRoot(container);
 
-const catRecipe = {
-    ...tomatoRecipe,
-    fries: 2,
-    coke: 1,
-}
-
-console.log(tomatoRecipe)
-console.log(catRecipe)
+root.render(<App />);
