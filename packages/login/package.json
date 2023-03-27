@@ -1,0 +1,29 @@
+{
+  "name": "login",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "keywords": [
+    "login"
+  ],
+  "author": "jocunda <silviawanshan88@gmail.com>",
+  "homepage": "https://github.com/jocunda/webpack-project#readme",
+  "license": "ISC",
+  "main": "lib/login.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocunda/webpack-project.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/login.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jocunda/webpack-project/issues"
+  }
+}
